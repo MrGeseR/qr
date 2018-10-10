@@ -14,7 +14,7 @@ gulp.task('build-library',() =>
             warning_level: 'DEFAULT',
             language_in: 'ECMASCRIPT6_STRICT',
             language_out: 'ECMASCRIPT6_STRICT',
-            js_output_file: 'qr-scanner.min.js'
+            js_output_file: 'src/qr-scanner.js'
         }))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('.'))

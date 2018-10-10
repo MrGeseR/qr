@@ -21,7 +21,7 @@ See https://nimiq.github.io/qr-scanner/demo/
 
 #### 1. Import the library:
 ```
-<script src="qr-scanner.min.js"></script>
+<script src="src/qr-scanner.js"></script>
 ```
 
 #### 2. Create HTML
@@ -42,7 +42,7 @@ As an optional third parameter a specific resolution that should be worked on ca
 
 #### 1. Import the library:
 ```
-<script src="qr-scanner.min.js"></script>
+<script src="src/qr-scanner.js"></script>
 ```
 
 #### 2. Scan your image
@@ -72,7 +72,7 @@ qrScanner.setGrayscaleWeights(red, green, blue)
 ```
 
 ## Build the project
-The project is prebuild in qr-scanner.min.js in combination with qr-scanner-worker.min.js. Building yourself is only neccessary if you want to change the code in
+The project is prebuild in src/qr-scanner.js in combination with qr-scanner-worker.min.js. Building yourself is only neccessary if you want to change the code in
 the /src folder. Nodejs and Java are required for building.
 
 Install required build packages:
